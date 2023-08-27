@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#sidebar a.active {
+  color: rgb(48, 48, 242);
+  background-color: rgb(221, 235, 253);
+}
