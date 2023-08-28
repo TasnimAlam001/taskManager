@@ -3,7 +3,7 @@ import {
   } from "react-router-dom";
 import Dashboard from "../Pages/Dashboard/Dashboard";
 import Main from "../Layout/Main";
-import Home from "../Pages/Home/Home/Home";
+
 
 
 
@@ -15,10 +15,6 @@ import Home from "../Pages/Home/Home/Home";
       children:[
         {
             path:'/',
-            element:<Home></Home>
-        },
-        {
-            path:'dashboard',
             element:<Dashboard></Dashboard>
         }
       ]

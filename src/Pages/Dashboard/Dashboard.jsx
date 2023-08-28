@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { FaFlipboard, FaHome, FaMap} from "react-icons/fa";
+import Home from "../Home/Home/Home";
 
 
 const Dashboard = () => {
@@ -8,9 +10,9 @@ const Dashboard = () => {
             {/* Sidebar content here */}
            
 
-            <li><NavLink to="/dashboard/userHome"> Boards</NavLink></li>
-            <li><NavLink to="/dashboard/reservations">Templates</NavLink></li>
-            <li><NavLink to="/"> Home</NavLink></li>
+            <li><NavLink to="/dashboard/userHome"> <FaFlipboard></FaFlipboard> Boards</NavLink></li>
+            <li><NavLink to="/dashboard/reservations"><FaMap></FaMap> Templates</NavLink></li>
+            <li><NavLink to="/"><FaHome></FaHome> Home</NavLink></li>
            
 
 
@@ -37,7 +39,7 @@ const Dashboard = () => {
                 </div>
                 <div className="drawer-content flex flex-col ">
                     
-                {/* -------------- */}
+                <Home></Home>
                 </div>
 
             </div>
